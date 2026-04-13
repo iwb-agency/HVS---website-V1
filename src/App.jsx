@@ -18,7 +18,7 @@ const venturesData = [
     desc: "Volledig losmaakbare tegelsystemen voor een circulaire bouwsector.",
     result: "Circulair bouwen zónder actieverlies.",
     status: "Gepatenteerd", traction: "200+ Warme Leads", market: "Keramische tegelvloeren",
-    marketSize: "€330M", cagr: "7.8%", Founder: "Bas Kiefmann",
+    marketSize: "€330M", cagr: "7.8%", Founder: "Bas Kiefmann", location: "Ulft",
     photoUrl: "/founders/bas_kiefmann_0.jpeg",
     founderQuote: "We konden simpelweg niet langer toezien hoe miljoenen vierkante meters hoogwaardig keramiek continu als onbereikbaar puin eindigden.",
     problem: [
@@ -33,7 +33,7 @@ const venturesData = [
     desc: "Software voor diep inzicht in complex organisatiegedrag ten behoeve van CO₂ reductie.",
     result: "Aantoonbare CO₂-reductie op de werkvloer.",
     status: "Live & Schalend", traction: "10+ Enterprise Klanten", market: "Duurzaamheid Software",
-    marketSize: "110.000 Bedrijven (NL)", cagr: "15%", Founder: "Bob van der Putten",
+    marketSize: "110.000 Bedrijven (NL)", cagr: "15%", Founder: "Bob van der Putten", location: "Amsterdam",
     photoUrl: "/founders/bob_van_der_putten_0.jpeg",
     founderQuote: "Duurzaamheid is pas een feit als het dagelijks gedrag op de werkvloer structureel en meetbaar verandert, niet alleen in directiekamers.",
     problem: [
@@ -48,7 +48,7 @@ const venturesData = [
     desc: "Laptops-as-a-Service model met refurbished devices ter voorkoming van e-waste.",
     result: "E-waste volledig geëlimineerd.",
     status: "Groeifase", traction: "15.000+ Laptops actief", market: "DaaS (Device as a Service)",
-    marketSize: "€375M", cagr: "10.4%", Founder: "Martijn van Dijk",
+    marketSize: "€375M", cagr: "10.4%", Founder: "Martijn van Dijk", location: "Zwolle",
     photoUrl: "/founders/martijn_van_dijk_0.jpeg",
     founderQuote: "Het traditionele model waarbij hypermoderne IT al na exact 3 jaar structureel wordt afgedankt is ronduit absurd.",
     problem: [
@@ -62,8 +62,8 @@ const venturesData = [
     id: "donnie", name: "Donnie",
     desc: "Hét Goede doelenabonnement dat de nieuwe generatie inspireert en activeert.",
     result: "Structurele donaties van Gen-Z.",
-    status: "Pilots", traction: "496 Donateurs, €52k opgehaald", market: "Doneren",
-    marketSize: "€1.1B (2040)", cagr: "8%", Founder: "Anouk de Vries",
+    status: "Pilots", traction: "800k+ Organische Views", market: "Doneren",
+    marketSize: "€1.1B (2040)", cagr: "8%", Founder: "Anouk de Vries & Mathijs Derksen", location: "Amsterdam",
     photoUrl: "/founders/anouk_de_vries_0.jpeg",
     founderQuote: "Ik merkte hoe de jongere generatie werd verlamd door keuzestress, terwijl de werkelijke drang om direct impact te maken enorm was.",
     problem: [
@@ -77,8 +77,8 @@ const venturesData = [
     id: "goase", name: "GOase",
     desc: "Intelligente binnenstedelijke laadpleinen, lokaal verbonden aan schone energie.",
     result: "Altijd groene stroom, zonder congestie.",
-    status: "Eerste locaties live", traction: "3 Laadpleinen Operationeel", market: "Laadsector",
-    marketSize: "€1.2B", cagr: "22%", Founder: "Jesper Jacobs",
+    status: "Eerste locaties live", traction: "5 Laadpleinen in Opdracht", market: "Laadsector",
+    marketSize: "$33B (EU 2030)", cagr: "22%", Founder: "Jesper Jacobs & Winie van Oorschot", location: "Eindhoven",
     photoUrl: "/founders/jesper_jacobs_0.jpeg",
     founderQuote: "Ondernemers wilden dolgraag groen groeien, maar konden dat simpelweg niet wegens drastisch gebrek aan lokaal stroomvermogen.",
     problem: [
@@ -93,7 +93,7 @@ const venturesData = [
     desc: "Slimme lokale energienetwerken (hubs) om netcongestie effectief te omzeilen.",
     result: "Bedrijventerreinen weer van stroom voorzien.",
     status: "Ontwikkeling", traction: "5 Hubs in voorbereiding", market: "Netcongestie & Smart Grids",
-    marketSize: "€800M", cagr: "18%", Founder: "Ben Verstraten",
+    marketSize: "€800M", cagr: "18%", Founder: "Ben Verstraten", location: "Eindhoven",
     photoUrl: "/founders/ben_verstraten_0.jpeg",
     founderQuote: "We verbruiken absurd veel energie terwijl de omliggende buren zonne-overschot hebben. Wij geven de regie direct terug.",
     problem: [
@@ -108,7 +108,7 @@ const venturesData = [
     desc: "Constructieve journalistieke content over maatschappelijke vooruitgang en duurzaamheid.",
     result: "Positief nieuws centraal stellen.",
     status: "Schaalbaar platform", traction: "100k+ Maandelijks Bereik", market: "Duurzaamheid Communicatie",
-    marketSize: "€5 Miljard", cagr: "15%", Founder: "Maartje Bregman",
+    marketSize: "€5 Miljard", cagr: "15%", Founder: "Maartje Bregman & Tessel Zandstra", location: "Eindhoven",
     photoUrl: "https://media.licdn.com/dms/image/v2/D4E03AQF7BjJ7QKxQWA/profile-displayphoto-scale_200_200/B4EZyJrWsoKcAY-/0/1771836372093?e=2147483647&v=beta&t=cMdB32MYKTRatUUKd2NjTR5dlMyk5zQyhcK1MUSw0Qs",
     founderQuote: "Er stond verbijsterend genoeg nergens een robuust en professioneel podium voor eerlijke en werkbare oplossingen in het klimaatdebat.",
     problem: [
@@ -123,7 +123,7 @@ const venturesData = [
     desc: "Loyaliteitsprogramma’s die klantgedrag direct koppelen aan meetbare maatschappelijke impact.",
     result: "Waardegedreven klantloyaliteit.",
     status: "Verdiepingsfase", traction: "Pilot bij 3 Gemeenten", market: "Loyaliteit & Rewards",
-    marketSize: "€ 1 mrd (2025)", cagr: "12.6%", Founder: "N.t.b.",
+    marketSize: "€ 1 mrd (2025)", cagr: "12.6%", Founder: "N.t.b.", location: "Eindhoven",
     founderQuote: "Massale marketing focuste louter op extreme kortingen zonder waarde toe te voegen voor mens en omgeving.",
     problem: [
       "Traditionele loyaliteitsprogramma's sturen koud op platte prijskortingen.",
@@ -137,7 +137,7 @@ const venturesData = [
     desc: "Binnenkort aangekondigd: onze 9e deep-tech toevoeging in de Huddles portfolio.",
     result: "Systeemversnelling binnen de energietransitie.",
     status: "Pre-seed", traction: "Proof of Concept behaald", market: "Deep Tech / Transitie",
-    marketSize: "€450M", cagr: "20%+", Founder: "Wordt aangekondigd",
+    marketSize: "€450M", cagr: "20%+", Founder: "Wordt aangekondigd", location: "Nederland",
     founderQuote: "De massale verspilling in de ruwe industrie vereist directe, compromisloze technologische pre-seed deep-tech inbreng.",
     problem: [
       "Complexe grondstofscheiding faalt nog te vaak door foutgevoelige, antieke menselijke processen.",
@@ -152,21 +152,33 @@ const faqData = {
   investors: [
     {
       q: "Wat is het risicoprofiel van een Venture Studio model?",
-      a: "Door zelf operationeel met 'skin in the game' mee te bouwen, verkleinen we het risico op executiefalen aanzienlijk vergeleken met passieve investeringen. We valideren de markt en tractie voordat we opschalen."
+      a: "Door zelf operationeel met 'skin in the game' mee te bouwen, verkleinen we het risico op executiefalen aanzienlijk vergeleken met passieve investeringen. Iedere venture wordt gevalideerd op markt, tractie én schaalbaarheid voordat we opschalen."
     },
     {
       q: "Hoe word ik onderdeel van de community?",
-      a: "Na een positief intakegesprek waarin we wederzijdse waarde valideren, krijg je toegang tot onze besloten deals en het netwerk van 35+ topondernemers."
+      a: "Na een positief intakegesprek waarin we wederzijdse waarde valideren, krijg je toegang tot onze besloten deals en het netwerk van 35+ topondernemers die actief bijdragen aan de portfolio."
     },
     {
       q: "Zijn er management fees of andere verborgen kosten?",
       a: "Onze structuur is uiterst transparant en volledig gericht op lange-termijn impact ROI. We trekken samen met investeerders op in specifieke fondsen of ventures zonder onnodige overhead."
+    },
+    {
+      q: "Hoe wordt de portfolio gediversifieerd over sectoren?",
+      a: "Onze 9 ventures bestrijken bewust meerdere pijlers van de fysieke transitie: van circulair bouwen en de energietransitie tot duurzame zorg en verantwoord doneren. Die spreiding verlaagt sectorrisico en maximaliseert systeemimpact."
+    },
+    {
+      q: "Hoe ziet de betrokkenheid van investeerders eruit na toetreding?",
+      a: "Investeerders worden actief verbonden aan ventures waar hun branche-expertise het meest waardevol is. Je ontvangt kwartaalupdates, krijgt toegang tot exclusieve venture updates en wordt uitgenodigd voor besloten Huddles-sessies."
+    },
+    {
+      q: "Welke resultaten boeken de portfolio ventures op dit moment?",
+      a: "Onze ventures realiseren concrete, meetbare impact: van operationele laadpleinen en duizenden circulaire devices in gebruik tot significante CO₂-reducties in de zorgsector. Elke venture heeft een duidelijk pad naar schaalbaarheid."
     }
   ],
   entrepreneurs: [
     {
-      q: "Wat houdt de '100k cash + 50k coaching' investering precies in?",
-      a: "We investeren 100k EUR direct werkkapitaal in je bedrijf. De 50k EUR is een investering in actieve, wekelijkse coaching door een Kickstartprofessional: een ervaren ondernemer die je helpt sneller tractie te maken."
+      q: "Wat houdt de Huddles-investering precies in?",
+      a: "Je ontvangt direct werkkapitaal gecombineerd met een intensief coachingstraject door een Kickstartprofessional: een ervaren ondernemer die wekelijks meebouwt en je helpt sneller tastbare tractie te realiseren."
     },
     {
       q: "Moet ik mijn bedrijf opgeven in het Venture Studio model?",
@@ -175,12 +187,58 @@ const faqData = {
     {
       q: "Welke partners zitten er in 'Huddles Select'?",
       a: "Dit is een exclusieve selectie van partners op gebied van bookkeeping, legal en marketing die volledig zijn ingewerkt in onze werkwijze en je ontzorgen tegen scherpe ondernemers-condities."
+    },
+    {
+      q: "Hoe helpt Huddles bij het ophalen van vervolgfinanciering?",
+      a: "Via ons netwerk van 35+ actieve investeerders en onze eigen fundingstrategie-expertise begeleiden we je bij het structureren en ophalen van groeikapitaal — van pre-seed tot scale-up fase."
+    },
+    {
+      q: "In welke fase moet mijn bedrijf zich bevinden om in aanmerking te komen?",
+      a: "We zoeken ondernemers met een gevalideerd concept in de fysieke transitie — denk aan stealth-, pre-seed- of vroege groeifase. De kern: je lost een fundamenteel systeemprobleem op en bent klaar om te schalen."
+    }
+  ],
+  portfolio: [
+    {
+      q: "Hoe draagt de portfolio bij aan de energietransitie?",
+      a: "Meerdere ventures in de portfolio pakken netcongestie en de elektrificatie van binnensteden aan. Van slimme lokale energiehubs die bedrijventerreinen weer van stroom voorzien tot intelligente laadpleinen die onafhankelijk opereren van het overbelaste net — altijd met groene stroom."
+    },
+    {
+      q: "Wat betekent circulaire economie binnen de Huddles portfolio?",
+      a: "Circulariteit loopt als rode draad door onze ventures. We investeren in bedrijven die hoogwaardig keramiek volledig herbruikbaar maken in de bouw, die duizenden laptops een tweede en derde leven geven als service-model, en die restwaarde van materialen structureel behouden."
+    },
+    {
+      q: "Hoe maakt de portfolio duurzaamheid meetbaar in de zorgsector?",
+      a: "Eén van onze ventures levert software die zorginstellingen helpt hun dagelijks gedrag te vertalen naar aantoonbare CO₂-reductie. Per instelling worden jaarlijks honderden tonnen CO₂ en tonnen afval bespaard, terwijl ook de operationele kosten substantieel dalen."
+    },
+    {
+      q: "Hoe activeert de portfolio de volgende generatie donateurs?",
+      a: "Via een innovatief donatieplatform koppelen we maatschappelijke betrokkenheid aan concrete projecten met meetbare impact. De focus ligt op het bereiken van een jongere doelgroep via sociale evenementen en organisch social media bereik — waardoor structureel doneren toegankelijk wordt."
+    },
+    {
+      q: "Welke rol speelt constructieve communicatie in de portfolio?",
+      a: "Eén van onze mediaventures biedt een professioneel podium voor oplossingsgerichte journalistiek en duurzaamheidscommunicatie. Dit helpt impactgedreven organisaties hun verhaal te vertellen op een manier die activeert in plaats van polariseert."
+    },
+    {
+      q: "Hoe worden klantloyaliteit en impact gecombineerd?",
+      a: "Binnen de portfolio wordt gewerkt aan een loyaliteitsmodel dat klantgedrag direct koppelt aan meetbare maatschappelijke impact — bijvoorbeeld via CO₂-certificering als strategische businesskans voor retailers en merken."
     }
   ],
   general: [
     {
       q: "Waarom de focus op hardware en de fysieke transitie?",
       a: "Hier ligt de grootste uitdaging voor de planeet én de grootste economische kans van deze eeuw. Juist in de fysieke wereld is operationele support en netwerk cruciaal om barrières te doorbreken."
+    },
+    {
+      q: "Wat onderscheidt een Venture Studio van een traditioneel investeringsfonds?",
+      a: "Waar een traditioneel fonds kapitaal verstrekt en op afstand blijft, bouwen wij mee. We zijn operationeel partner: we denken mee over strategie, helpen met team-opbouw en ontsluiten ons volledig netwerk. Dat verlaagt het faalrisico en versnelt de groei drastisch."
+    },
+    {
+      q: "Hoe groot is de huidige Huddles portfolio?",
+      a: "Ons Impact Ventures Fund omvat 9 ventures die elk een fundamenteel systeemprobleem aanpakken: van circulair bouwen en de energietransitie tot duurzame zorg, structureel doneren en constructieve media. Samen bestrijken ze de volledige breedte van de fysieke transitie."
+    },
+    {
+      q: "Hoe wordt de impact van de ventures gemeten?",
+      a: "Iedere venture rapporteert op meetbare impactindicatoren: tonnen CO₂-reductie, kilogrammen materiaal in circulatie, kilowatturen groene stroom geleverd, en euros aan maatschappelijke waarde gegenereerd. We sturen actief op deze KPI's naast financieel rendement."
     }
   ]
 };
@@ -195,6 +253,8 @@ function Navbar() {
         <div className="hidden lg:flex gap-8 text-xs font-bold tracking-widest uppercase text-brand-dark/80">
           <Link to="/investors" className="hover:text-brand-accent transition-colors">Voor Investeerders</Link>
           <Link to="/ondernemers" className="hover:text-brand-accent transition-colors">Voor Ondernemers</Link>
+          <Link to="/portfolio" className="hover:text-brand-accent transition-colors">Portfolio</Link>
+          <Link to="/over-ons" className="hover:text-brand-accent transition-colors">Over Ons</Link>
           <Link to="/faq" className="hover:text-brand-accent transition-colors">FAQ</Link>
         </div>
       </div>
@@ -222,6 +282,8 @@ function Footer() {
         <div className="flex flex-wrap justify-center gap-8 text-xs font-bold tracking-widest uppercase">
           <Link to="/investors" className="hover:text-brand-accent transition-colors">Investeerders</Link>
           <Link to="/ondernemers" className="hover:text-brand-accent transition-colors">Ondernemers</Link>
+          <Link to="/portfolio" className="hover:text-brand-accent transition-colors">Portfolio</Link>
+          <Link to="/over-ons" className="hover:text-brand-accent transition-colors">Over Ons</Link>
           <Link to="/faq" className="hover:text-brand-accent transition-colors">FAQ</Link>
         </div>
       </div>
@@ -274,7 +336,7 @@ const FAQAccordion = ({ items }) => {
 };
 
 const FAQSection = ({ category, max = 3, title = "Veelgestelde Vragen" }) => {
-  const items = category ? faqData[category] : [...faqData.general, ...faqData.investors, ...faqData.entrepreneurs];
+  const items = category ? faqData[category] : [...faqData.general, ...faqData.portfolio, ...faqData.investors, ...faqData.entrepreneurs];
   return (
     <section className="py-24 px-6 bg-brand-cream/50">
       <div className="max-w-4xl mx-auto">
@@ -539,11 +601,11 @@ function EntrepreneursPage() {
 // NEW INVESTORS PAGE
 function InvestorsPage() {
   const team = [
-    { name: "Akke Pennin", role: "Huddles Founder & Managing Partner", linkedin: "https://www.linkedin.com/in/akke-pennin-1ab5136a/" },
-    { name: "Winie van Oorschot", role: "Huddles Founder & Partner", linkedin: "https://www.linkedin.com/in/winie-van-oorschot-8a854915/" },
-    { name: "Frank Ponsioen", role: "Huddles Founder & Partner", linkedin: "https://www.linkedin.com/in/frankponsioen/" },
-    { name: "Olivier Ponsioen", role: "Huddles Founder & Partner", linkedin: "https://www.linkedin.com/in/olivierponsioen/" },
-    { name: "Sebo Havinga", role: "Huddles Founder & Partner", linkedin: "https://www.linkedin.com/in/sebohavinga/" }
+    { name: "Akke Pennin", role: "Managing Partner", linkedin: "https://www.linkedin.com/in/akke-pennin-1ab5136a/" },
+    { name: "Winie van Oorschot", role: "Co-founder", linkedin: "https://www.linkedin.com/in/winie-van-oorschot-8a854915/" },
+    { name: "Frank Ponsioen", role: "Co-founder", linkedin: "https://www.linkedin.com/in/frankponsioen/" },
+    { name: "Olivier Ponsioen", role: "Managing Partner", linkedin: "https://www.linkedin.com/in/olivierponsioen/" },
+    { name: "Sebo Havinga", role: "Managing Partner", linkedin: "https://www.linkedin.com/in/sebohavinga/" }
   ];
 
   return (
@@ -595,21 +657,21 @@ function InvestorsPage() {
             <div className="inline-block bg-white/10 text-brand-accent font-bold px-3 py-1.5 text-[10px] rounded-sm tracking-widest uppercase mb-6 border border-white/20 self-start relative z-10">Investeerders Profiel</div>
             <h2 className="text-3xl font-extrabold mb-8 text-white leading-tight relative z-10">Wat wij van jou verwachten.</h2>
             <ul className="space-y-6 flex-1 relative z-10">
-              <li className="flex items-start gap-4">
-                <div className="bg-brand-accent/20 text-brand-accent rounded-full p-1 mt-0.5 shadow-sm shrink-0 flex items-center justify-center">
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+              <li className="flex items-start gap-3">
+                <div className="bg-brand-accent text-brand-dark rounded-full p-1.5 mt-0.5 shadow-sm shrink-0 flex items-center justify-center">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                 </div>
                 <span className="text-base text-brand-light font-medium leading-[1.8]">Actieve inbreng van jouw specifieke operationele branche-kennis of hardware expertise.</span>
               </li>
-              <li className="flex items-start gap-4">
-                <div className="bg-brand-accent/20 text-brand-accent rounded-full p-1 mt-0.5 shadow-sm shrink-0 flex items-center justify-center">
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <li className="flex items-start gap-3">
+                <div className="bg-brand-accent text-brand-dark rounded-full p-1.5 mt-0.5 shadow-sm shrink-0 flex items-center justify-center">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                 </div>
                 <span className="text-base text-brand-light font-medium leading-[1.8]">Het strategisch en warm openstellen van jouw C-level zakelijke en logistieke netwerk.</span>
               </li>
-              <li className="flex items-start gap-4">
-                <div className="bg-brand-accent/20 text-brand-accent rounded-full p-1 mt-0.5 shadow-sm shrink-0 flex items-center justify-center">
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+              <li className="flex items-start gap-3">
+                <div className="bg-brand-accent text-brand-dark rounded-full p-1.5 mt-0.5 shadow-sm shrink-0 flex items-center justify-center">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
                 </div>
                 <span className="text-base text-brand-light font-medium leading-[1.8]">Gezamenlijke kapitaalinbreng om de fysieke impact transitie krachtig te ontgrendelen.</span>
               </li>
@@ -643,12 +705,12 @@ function InvestorsPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {[
-              { name: "Roy Spierenburg", role: "Angel Investor", initial: "R", link: "https://www.linkedin.com/in/royspierenburg/" },
-              { name: "Christiaan Slierendrecht", role: "Investor", initial: "C", link: "https://www.linkedin.com/in/christiaanslierendrecht/" },
-              { name: "Evelyn Martinez", role: "Venture Partner", initial: "E", link: "#" },
-              { name: "Sander van Vliet", role: "Angel Investor", initial: "S", link: "#" },
-              { name: "Lisa de Bruin", role: "Tech Innovator", initial: "L", link: "#" },
-              { name: "Jeroen Huisman", role: "Financial Expert", initial: "J", link: "#" }
+              { name: "Roy Spierenburg", role: "Impactinvesteerder", initial: "R", link: "https://www.linkedin.com/in/royspierenburg/" },
+              { name: "Christiaan Slierendrecht", role: "Impactinvesteerder", initial: "C", link: "https://www.linkedin.com/in/christiaanslierendrecht/" },
+              { name: "Evelyn Martinez", role: "Impactinvesteerder", initial: "E", link: "#" },
+              { name: "Sander van Vliet", role: "Impactinvesteerder", initial: "S", link: "#" },
+              { name: "Lisa de Bruin", role: "Impactinvesteerder", initial: "L", link: "#" },
+              { name: "Jeroen Huisman", role: "Impactinvesteerder", initial: "J", link: "#" }
             ].map((inv, i) => (
               <a key={i} href={inv.link} target={inv.link !== "#" ? "_blank" : "_self"} rel="noreferrer" className="bg-white p-6 rounded-sm border border-brand-dark/5 shadow-sm text-center flex flex-col items-center hover:-translate-y-1 hover:shadow-lg transition-transform h-full">
                 <div className="w-16 h-16 bg-brand-dark/5 text-brand-dark font-extrabold text-xl rounded-full mb-4 border border-brand-dark/10 flex items-center justify-center">
@@ -661,7 +723,7 @@ function InvestorsPage() {
             ))}
 
             <div className="bg-brand-dark/5 p-6 rounded-sm border border-brand-dark/10 flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-4 mt-2">
-              <span className="font-bold text-sm text-brand-dark/60 uppercase tracking-widest text-center">+ Ontmoet Minstens 23 Andere Actieve Investeerders Behind Closed Doors</span>
+              <span className="font-bold text-sm text-brand-dark/60 uppercase tracking-widest text-center">+ Ontmoet Minstens 23 Andere Actieve Impactinvesteerders Behind Closed Doors</span>
             </div>
           </div>
         </div>
@@ -818,7 +880,7 @@ function FAQPage() {
       <Navbar />
       <section className="bg-brand-dark text-white py-32 px-6 lg:px-12 text-center pt-40">
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">Veelgestelde <span className="text-brand-accent">Vragen.</span></h1>
-        <p className="text-lg text-brand-light/70 max-w-2xl mx-auto">Alles wat je moet weten over de Human Venture Studio, onze financiering en hoe we samen impact maken.</p>
+        <p className="text-lg text-brand-light/70 max-w-2xl mx-auto font-medium">Alles wat je moet weten over de Human Venture Studio, onze portfolio, financiering en hoe we samen impact maken in de fysieke transitie.</p>
       </section>
 
       <section className="py-24 px-6 max-w-4xl mx-auto w-full flex-grow">
@@ -839,6 +901,13 @@ function FAQPage() {
 
           <div>
             <h2 className="text-3xl font-extrabold text-brand-dark mb-8 flex items-center gap-4">
+               <span className="w-10 h-1 bg-brand-accent"></span> Over Onze Portfolio
+            </h2>
+            <FAQAccordion items={faqData.portfolio} />
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-extrabold text-brand-dark mb-8 flex items-center gap-4">
                <span className="w-10 h-1 bg-brand-accent"></span> Algemene Vragen
             </h2>
             <FAQAccordion items={faqData.general} />
@@ -854,6 +923,280 @@ function FAQPage() {
            </div>
         </div>
       </section>
+      <Footer />
+    </div>
+  );
+}
+
+// ABOUT PAGE
+function AboutPage() {
+  const managementTeam = [
+    { name: "Akke Pennin", role: "Managing Partner", linkedin: "https://www.linkedin.com/in/akke-pennin-1ab5136a/" },
+    { name: "Winie van Oorschot", role: "Co-founder", linkedin: "https://www.linkedin.com/in/winie-van-oorschot-8a854915/" },
+    { name: "Frank Ponsioen", role: "Co-founder", linkedin: "https://www.linkedin.com/in/frankponsioen/" },
+    { name: "Olivier Ponsioen", role: "Managing Partner", linkedin: "https://www.linkedin.com/in/olivierponsioen/" },
+    { name: "Sebo Havinga", role: "Managing Partner", linkedin: "https://www.linkedin.com/in/sebohavinga/" }
+  ];
+
+  const investors = [
+    { name: "Roy Spierenburg", linkedin: "https://www.linkedin.com/in/royspierenburg/" },
+    { name: "Christiaan Slierendrecht", linkedin: "https://www.linkedin.com/in/christiaanslierendrecht/" },
+    { name: "Evelyn Martinez", linkedin: "#" },
+    { name: "Sander van Vliet", linkedin: "#" },
+    { name: "Lisa de Bruin", linkedin: "#" },
+    { name: "Jeroen Huisman", linkedin: "#" }
+  ];
+
+  return (
+    <div className="min-h-screen bg-brand-cream font-sans flex flex-col">
+      <Navbar />
+
+      {/* Hero */}
+      <section className="bg-brand-dark text-white py-32 px-6 lg:px-12 relative overflow-hidden text-center pt-40">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-brand-accent/5 rounded-full blur-[100px] pointer-events-none"></div>
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-accent/10 rounded-full blur-[80px] pointer-events-none"></div>
+        </div>
+        <div className="max-w-4xl mx-auto relative z-10">
+          <div className="inline-block bg-brand-accent/20 text-brand-accent font-bold px-4 py-1.5 text-[10px] rounded-sm tracking-widest uppercase mb-8">
+            De mensen achter Huddles
+          </div>
+          <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">Over <span className="text-brand-accent">Ons.</span></h1>
+          <p className="text-lg text-brand-light/80 max-w-2xl mx-auto font-medium leading-relaxed">
+            Achter elke succesvolle venture staat een team dat de transitie niet alleen financiert, maar actief meebouwt. Ontmoet de mensen die de fysieke economie versnellen.
+          </p>
+        </div>
+      </section>
+
+      {/* Management Team */}
+      <section className="py-24 px-6 lg:px-12 max-w-6xl mx-auto w-full">
+        <div className="mb-16">
+          <div className="flex items-center gap-4 mb-4">
+            <span className="w-10 h-1 bg-brand-accent"></span>
+            <span className="text-[10px] font-bold uppercase tracking-widest text-brand-accent">Leiderschap</span>
+          </div>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark mb-4">Management Team.</h2>
+          <p className="text-base text-brand-dark/70 max-w-2xl font-medium leading-relaxed">
+            Het kernteam dat dagelijks operationeel meebouwt aan onze ventures en de strategische koers van Huddles Venture Studios bepaalt.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          {managementTeam.map((member, idx) => (
+            <a href={member.linkedin} target="_blank" rel="noreferrer" key={idx} className="bg-white p-8 rounded-sm shadow-lg border border-brand-dark/5 hover:-translate-y-2 hover:shadow-xl transition-all duration-300 text-center flex flex-col items-center h-full group relative overflow-hidden">
+              <div className="absolute top-0 left-0 right-0 h-1 bg-brand-accent transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+              <div className="w-24 h-24 bg-brand-dark/5 rounded-full mb-6 border-2 border-brand-dark/10 flex items-center justify-center font-bold text-3xl text-brand-dark group-hover:border-brand-accent/40 transition-colors">
+                {member.name.charAt(0)}
+              </div>
+              <h3 className="font-extrabold text-base mb-2 text-brand-dark">{member.name}</h3>
+              <p className="text-[10px] uppercase font-bold text-brand-accent/80 mb-6 flex-1 leading-relaxed tracking-widest">{member.role}</p>
+              <span className="text-xs font-bold text-[#0077b5] border border-[#0077b5]/20 bg-[#0077b5]/5 px-4 py-1.5 rounded-sm w-full hover:bg-[#0077b5]/10 transition-colors">LinkedIn →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      {/* Impactinvesteerders */}
+      <section className="pb-32 px-6 lg:px-12 max-w-6xl mx-auto w-full">
+        <div className="border-t border-brand-dark/10 pt-20">
+          <div className="mb-16">
+            <div className="flex items-center gap-4 mb-4">
+              <span className="w-10 h-1 bg-brand-accent"></span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-brand-accent">Community</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-brand-dark">Onze Impactinvesteerders.</h2>
+            <p className="text-base text-brand-dark/70 mb-0 max-w-2xl font-medium leading-relaxed">
+              Een actieve groep koplopers die niet alleen met kapitaal, maar vooral met hun operationele kennis en strategisch netwerk bijdragen aan de groei van de portfolio.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {investors.map((inv, i) => (
+              <a key={i} href={inv.linkedin} target={inv.linkedin !== "#" ? "_blank" : "_self"} rel="noreferrer" className="bg-white p-6 rounded-sm border border-brand-dark/5 shadow-sm text-center flex flex-col items-center hover:-translate-y-1 hover:shadow-lg transition-transform h-full group">
+                <div className="w-16 h-16 bg-brand-dark/5 text-brand-dark font-extrabold text-xl rounded-full mb-4 border border-brand-dark/10 flex items-center justify-center group-hover:border-brand-accent/40 transition-colors">
+                  {inv.name.charAt(0)}
+                </div>
+                <h3 className="font-extrabold text-sm mb-2 text-brand-dark">{inv.name}</h3>
+                <p className="text-[10px] uppercase font-bold text-brand-dark/40 mb-6 flex-1 tracking-widest">Impactinvesteerder</p>
+                <span className="text-xs font-bold text-[#0077b5] border border-[#0077b5]/20 bg-[#0077b5]/5 px-3 py-1 rounded-sm w-full">LinkedIn →</span>
+              </a>
+            ))}
+
+            <div className="bg-brand-dark/5 p-6 rounded-sm border border-brand-dark/10 flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-4 mt-2">
+              <span className="font-bold text-sm text-brand-dark/60 uppercase tracking-widest text-center">+ Ontmoet Minstens 23 Andere Actieve Impactinvesteerders Behind Closed Doors</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="px-6 lg:px-12 pb-32">
+        <div className="max-w-4xl mx-auto p-12 bg-brand-dark rounded-sm border border-brand-accent/20 text-center shadow-2xl relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-brand-accent/5 rounded-full blur-[60px] pointer-events-none"></div>
+          <h3 className="text-3xl md:text-4xl font-extrabold text-white mb-6 relative z-10">Deel uitmaken van het team?</h3>
+          <p className="text-brand-light/80 mb-10 max-w-xl mx-auto text-base font-medium leading-relaxed relative z-10">
+            Of je nu wilt investeren als impactinvesteerder of als founder een venture wilt lanceren — we horen graag van je.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 relative z-10">
+            <Link to="/investors" className="bg-brand-accent text-brand-dark px-10 py-4 font-bold text-sm uppercase tracking-widest rounded-sm hover:-translate-y-1 transition-transform w-full sm:w-auto shadow-lg shadow-brand-accent/20">
+              Join Community
+            </Link>
+            <Link to="/ondernemers" className="bg-white/10 text-white border border-white/20 px-10 py-4 font-bold text-sm uppercase tracking-widest rounded-sm hover:bg-white hover:text-brand-dark transition-all w-full sm:w-auto">
+              Pitch Venture
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  );
+}
+
+// PORTFOLIO PAGE
+function PortfolioPage() {
+  return (
+    <div className="min-h-screen bg-brand-cream font-sans flex flex-col">
+      <Navbar />
+
+      {/* Hero */}
+      <section className="bg-brand-dark text-white py-32 px-6 lg:px-12 relative overflow-hidden text-center pt-40">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-brand-accent/5 rounded-full blur-[100px] pointer-events-none"></div>
+          <div className="absolute bottom-0 right-0 w-64 h-64 bg-brand-accent/10 rounded-full blur-[80px] pointer-events-none"></div>
+        </div>
+        <div className="max-w-4xl mx-auto relative z-10">
+          <div className="inline-block bg-brand-accent/20 text-brand-accent font-bold px-4 py-1.5 text-[10px] rounded-sm tracking-widest uppercase mb-8">
+            Impact Ventures Fund I
+          </div>
+          <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">Onze <span className="text-brand-accent">Portfolio.</span></h1>
+          <p className="text-lg text-brand-light/80 max-w-2xl mx-auto font-medium leading-relaxed">
+            9 ventures die elk een fundamenteel systeemprobleem aanpakken in de fysieke transitie. Van circulair bouwen tot de energietransitie.
+          </p>
+        </div>
+      </section>
+
+      {/* Portfolio Overzichtstabel */}
+      <section className="py-24 px-6 lg:px-12 max-w-7xl mx-auto w-full">
+        <div className="mb-16">
+          <div className="flex items-center gap-4 mb-4">
+            <span className="w-10 h-1 bg-brand-accent"></span>
+            <span className="text-[10px] font-bold uppercase tracking-widest text-brand-accent">Venture Updates</span>
+          </div>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark mb-4">Portfolio Overzicht.</h2>
+          <p className="text-base text-brand-dark/70 max-w-2xl font-medium leading-relaxed">
+            Een compleet overzicht van al onze deelnemingen, hun marktpositie en actuele tractie.
+          </p>
+        </div>
+
+        {/* Table */}
+        <div className="overflow-x-auto rounded-sm shadow-xl border border-brand-dark/10">
+          <table className="w-full">
+            <thead>
+              <tr className="bg-brand-dark text-white">
+                <th className="text-left px-6 py-4 text-[10px] font-bold uppercase tracking-widest">Venture</th>
+                <th className="text-left px-6 py-4 text-[10px] font-bold uppercase tracking-widest hidden md:table-cell">Locatie</th>
+                <th className="text-left px-6 py-4 text-[10px] font-bold uppercase tracking-widest">Markt</th>
+                <th className="text-left px-6 py-4 text-[10px] font-bold uppercase tracking-widest hidden lg:table-cell">Marktomvang</th>
+                <th className="text-left px-6 py-4 text-[10px] font-bold uppercase tracking-widest hidden md:table-cell">Founder(s)</th>
+                <th className="text-left px-6 py-4 text-[10px] font-bold uppercase tracking-widest">Status</th>
+                <th className="text-left px-6 py-4 text-[10px] font-bold uppercase tracking-widest hidden lg:table-cell">Tractie</th>
+              </tr>
+            </thead>
+            <tbody>
+              {venturesData.map((v, i) => (
+                <tr key={v.id} className={`${i % 2 === 0 ? 'bg-white' : 'bg-brand-cream/50'} hover:bg-brand-accent/5 transition-colors`}>
+                  <td className="px-6 py-4">
+                    <Link to={`/venture/${v.id}`} className="font-extrabold text-brand-dark hover:text-brand-accent transition-colors">
+                      {v.name}
+                    </Link>
+                  </td>
+                  <td className="px-6 py-4 hidden md:table-cell">
+                    <span className="text-sm text-brand-dark/60 font-medium">{v.location}</span>
+                  </td>
+                  <td className="px-6 py-4">
+                    <span className="text-[10px] font-bold uppercase tracking-widest text-[#386b4a] bg-[#E5F7ED] px-2 py-1 rounded-sm">{v.market}</span>
+                  </td>
+                  <td className="px-6 py-4 hidden lg:table-cell">
+                    <span className="text-sm font-bold text-brand-dark">{v.marketSize}</span>
+                    <span className="text-[10px] text-brand-dark/40 ml-1">CAGR {v.cagr}</span>
+                  </td>
+                  <td className="px-6 py-4 hidden md:table-cell">
+                    <span className="text-sm text-brand-dark/70 font-medium">{v.Founder}</span>
+                  </td>
+                  <td className="px-6 py-4">
+                    <span className="text-xs font-bold text-brand-dark">{v.status}</span>
+                  </td>
+                  <td className="px-6 py-4 hidden lg:table-cell">
+                    <span className="text-xs font-medium text-brand-dark/60">{v.traction}</span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* Venture Cards Grid */}
+      <section className="pb-32 px-6 lg:px-12 max-w-7xl mx-auto w-full">
+        <div className="border-t border-brand-dark/10 pt-20">
+          <div className="mb-16">
+            <div className="flex items-center gap-4 mb-4">
+              <span className="w-10 h-1 bg-brand-accent"></span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-brand-accent">Deep Dive</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark mb-4">Ontdek Elke Venture.</h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {venturesData.map(v => (
+              <Link to={`/venture/${v.id}`} key={v.id} className="bg-white p-8 rounded-sm shadow-xl border border-brand-dark/5 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group flex flex-col h-full relative overflow-hidden">
+                <div className="absolute top-0 left-0 right-0 h-1 bg-brand-accent transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-2xl font-extrabold text-brand-dark group-hover:text-[#386b4a] transition-colors">{v.name}</h3>
+                  <span className="text-[10px] font-bold uppercase tracking-widest text-[#386b4a] bg-[#E5F7ED] px-2 py-1 rounded-sm border border-brand-accent/30 shrink-0">{v.market}</span>
+                </div>
+                <p className="text-xs text-brand-dark/40 font-bold mb-4">{v.location} • {v.Founder}</p>
+                <p className="text-sm font-medium text-brand-dark/70 mb-8 flex-1 leading-relaxed">{v.desc}</p>
+
+                <div className="bg-brand-cream p-4 rounded-sm border-l-2 border-brand-accent flex justify-between items-center">
+                  <div>
+                    <span className="block text-brand-dark/50 text-[10px] font-bold uppercase tracking-widest mb-1">Status</span>
+                    <span className="text-xs font-extrabold text-brand-dark">{v.status}</span>
+                  </div>
+                  <div className="text-right">
+                    <span className="block text-brand-dark/50 text-[10px] font-bold uppercase tracking-widest mb-1">Tractie</span>
+                    <span className="text-xs font-extrabold text-brand-dark">{v.traction}</span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="px-6 lg:px-12 pb-32">
+        <div className="max-w-4xl mx-auto p-12 bg-brand-dark rounded-sm border border-brand-accent/20 text-center shadow-2xl relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-brand-accent/5 rounded-full blur-[60px] pointer-events-none"></div>
+          <h3 className="text-3xl md:text-4xl font-extrabold text-white mb-6 relative z-10">Investeren in de fysieke transitie?</h3>
+          <p className="text-brand-light/80 mb-10 max-w-xl mx-auto text-base font-medium leading-relaxed relative z-10">
+            Word onderdeel van ons netwerk van 35+ impactinvesteerders en krijg directe toegang tot deze ventures.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 relative z-10">
+            <Link to="/investors" className="bg-brand-accent text-brand-dark px-10 py-4 font-bold text-sm uppercase tracking-widest rounded-sm hover:-translate-y-1 transition-transform w-full sm:w-auto shadow-lg shadow-brand-accent/20">
+              Join Community
+            </Link>
+            <Link to="/ondernemers" className="bg-white/10 text-white border border-white/20 px-10 py-4 font-bold text-sm uppercase tracking-widest rounded-sm hover:bg-white hover:text-brand-dark transition-all w-full sm:w-auto">
+              Pitch Venture
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <FAQSection category="portfolio" max={3} title="Veelgestelde Vragen over de Portfolio" />
+
       <Footer />
     </div>
   );
@@ -883,6 +1226,8 @@ function App() {
           <Route path="/venture/:id" element={<VentureDetail />} />
           <Route path="/investors" element={<InvestorsPage />} />
           <Route path="/ondernemers" element={<EntrepreneursPage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/over-ons" element={<AboutPage />} />
           <Route path="/faq" element={<FAQPage />} />
         </Routes>
       </div>
